@@ -1,0 +1,99 @@
+/* here style body part */
+body{
+    margin: 0;
+    /* padding: 0; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  rgb(17, 0, 128);
+}
+/* here style container part */
+.container{
+    position: fixed;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    /* border: 2px solid black; */
+    margin-left: 8%;
+   
+
+
+}
+/* here style heading part  */
+h1{
+    color:  rgb(172, 21, 147);
+    text-align: center;
+    text-transform: uppercase;
+
+    /* for animation text */
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 100px;
+}
+
+@keyframes textclip{
+    to{
+        background-position: 200% center;
+    }
+   
+}
+/* here start style digit */
+.digit{
+    font-size: 4.2rem;
+    color: #f8f7f0;
+}
+.text{
+    font-size: 3rem;
+    color: #f8f7f0;
+    margin-top:50px;
+}
+/* here style buttons */
+#buttons{
+    margin-top: 50px;
+}
+.btn{
+    width: 100px;
+    padding: 10px 15px;
+    margin: 0px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #f24a07;
+    font-weight: 200;
+}
+/* here style for start btn */
+#start{
+    background-color: #0ce9bd;
+}
+/* here style for stop btn */
+#stop{
+    background-color: #0ce9bd;
+}
+/* here style for reset btn */
+#reset{
+    background-color: #0ce9bd;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 10px 15px aqua;
+}

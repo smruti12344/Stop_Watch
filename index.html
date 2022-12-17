@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- here use css file link -->
+    <link rel="stylesheet" href="style.css">
+    <title>StopWatch</title>
+</head>
+<body>
+    <!-- here create container to contain all part of timer -->
+    <div class="container">
+        <h1>StopWatch Timer</h1>
+        <!-- for time -->
+        <div id="time">
+            <!-- if u need to add hr count then un commet below line -->
+            <!-- for hour -->
+            <!-- <span id="hr" class="digit">00</span>
+            <span class="text">:</span> -->
+
+            <!-- for minute -->
+            <span id="min" class="digit">00</span>
+            <span class="text">:</span>
+
+            <!-- for second -->
+            <span id="sec" class="digit">00</span>
+            <span class="text">:</span>
+            <!-- for count -->
+            <span class="digit" id="count">00</span>
+        </div>
+        <!-- for button -->
+        <div id="buttons">
+            <!-- for timer start -->
+            <button id="start" class="btn">Start</button>
+            <!-- for timer stop -->
+            <button id="stop" class="btn">Stop</button>
+            <!-- tmier reset  -->
+            <button id="reset" class="btn">reset</button>
+        </div>
+    </div>
+    <!-- here use javascript file link -->
+    <script src="script.js"></script>
+</body>
+</html>
